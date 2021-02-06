@@ -1,0 +1,15 @@
+@font-face
+{
+    font-family: discordFont;
+    src:url("whitneysemibold.ttf") format("truetype");
+}
+
+.discordFontClass
+{
+    font-family: discordFont;
+}
+
+.bg-dark-not-bootstrap
+{
+    background-color: #202225;
+}
