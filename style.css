@@ -13,3 +13,99 @@
 {
     background-color: #202225;
 }
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 250px;
+  top: 0;
+  left: 0;
+  background-color:#1e272e;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel .closingButton:hover {
+  color: #f1f1f1;
+  color:red;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color:#202225;
+  color: white;
+  padding: 10px 15px;
+  border:none;
+}
+
+.openbtn:hover {
+  background-color:#7289da;
+}
+
+.closingButton:hover
+{
+    color:red;
+}
+
+
+.element:hover
+{
+
+    color:#2ecc71;
+}
+
+.borderClass
+{
+    border: 5px, solid, #7289da;
+}
+
+.botParagraph
+{
+    padding-top: 300px;
+    font-family: discordFont;
+    font-size: 25;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.title
+{
+    font-size: 50px;
+}
+
+.img-center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+.buttonCustom
+{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
