@@ -109,3 +109,9 @@
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
 }
+
+.githubPromos
+{
+  font-family: discordFont;
+  color:#27ae60;
+}
