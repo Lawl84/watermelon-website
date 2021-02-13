@@ -8,7 +8,7 @@ function openNav() {
 
 function openHelpServer()
 {
-    window.open("https://discord.gg/zDCufSRPyM")
+    window.open("https://discord.gg/ag4yMfREgg")
 }
 
 function openInvite()
